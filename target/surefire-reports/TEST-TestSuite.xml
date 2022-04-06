@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="131.24" tests="52" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="/home/sqe/.cache/selenium/chromedriver/linux64/99.0.4844.51/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="/home/sqe/Downloads/Comcate/target/test-classes:/home/sqe/Downloads/Comcate/target/classes:/home/sqe/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-java/3.5.3/selenium-java-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.5.3/selenium-chrome-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.5.3/selenium-edge-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.5.3/selenium-ie-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.5.3/selenium-opera-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.5.3/selenium-safari-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3.jar:/home/sqe/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/home/sqe/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/sqe/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/sqe/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/sqe/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/sqe/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/sqe/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/home/sqe/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23.jar:/home/sqe/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/sqe/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/sqe/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/sqe/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/sqe/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/sqe/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/sqe/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27.jar:/home/sqe/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27.jar:/home/sqe/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/sqe/.m2/repository/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502.jar:/home/sqe/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/sqe/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/sqe/.m2/repository/com/codeborne/phantomjsdriver/1.4.0/phantomjsdriver-1.4.0.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27.jar:/home/sqe/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/sqe/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502.jar:/home/sqe/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/sqe/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/sqe/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/home/sqe/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/sqe/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/home/sqe/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/home/sqe/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/sqe/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/sqe/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/home/sqe/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/sqe/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/sqe/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/sqe/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/sqe/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/sqe/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/sqe/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/sqe/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/sqe/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/sqe/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/home/sqe/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/sqe/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/sqe/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/sqe/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/home/sqe/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/home/sqe/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/home/sqe/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/sqe/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/sqe/Downloads/Comcate/target/surefire/surefirebooter10712122812589557216.jar /home/sqe/Downloads/Comcate/target/surefire 2022-04-05T17-15-57_096-jvmRun1 surefire2548742256121615197tmp surefire_05083677201641101819tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/sqe/Downloads/Comcate/target/test-classes:/home/sqe/Downloads/Comcate/target/classes:/home/sqe/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-java/3.5.3/selenium-java-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.5.3/selenium-chrome-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.5.3/selenium-edge-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.5.3/selenium-ie-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.5.3/selenium-opera-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.5.3/selenium-safari-driver-3.5.3.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3.jar:/home/sqe/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/home/sqe/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/sqe/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/sqe/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/sqe/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/sqe/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/sqe/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/home/sqe/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23.jar:/home/sqe/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/sqe/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/sqe/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/sqe/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/sqe/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/sqe/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/sqe/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27.jar:/home/sqe/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27.jar:/home/sqe/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/sqe/.m2/repository/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502.jar:/home/sqe/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/sqe/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/sqe/.m2/repository/com/codeborne/phantomjsdriver/1.4.0/phantomjsdriver-1.4.0.jar:/home/sqe/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27.jar:/home/sqe/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/sqe/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502.jar:/home/sqe/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502.jar:/home/sqe/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/sqe/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/sqe/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/home/sqe/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/sqe/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/home/sqe/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/home/sqe/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/sqe/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/sqe/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/home/sqe/.m2/repository/io/github/bonigarcia/webdrivermanager/4.3.1/webdrivermanager-4.3.1.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/home/sqe/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/home/sqe/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/home/sqe/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/home/sqe/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/home/sqe/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/home/sqe/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/sqe/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/home/sqe/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/home/sqe/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/home/sqe/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/home/sqe/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/sqe/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/sqe/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/sqe/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/home/sqe/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/home/sqe/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/home/sqe/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/sqe/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/sqe"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/sqe/Downloads/Comcate"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/sqe/Downloads/Comcate/target/surefire/surefirebooter10712122812589557216.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="user.name" value="sqe"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.13.0-37-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/sqe/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="user.dir" value="/home/sqe/Downloads/Comcate"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.14+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="LoginAgency" classname="com.ComCate.TestCases.Login" time="8.808">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 5530
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 05, 2022 5:15:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="PreRequisite" classname="com.ComCate.TestCases.CCP" time="14.527"/>
+  <testcase name="TC_CCP_01" classname="com.ComCate.TestCases.CCP" time="2.123"/>
+  <testcase name="TC_CCP_02" classname="com.ComCate.TestCases.CCP" time="0.027"/>
+  <testcase name="TC_CCP_03" classname="com.ComCate.TestCases.CCP" time="4.287"/>
+  <testcase name="TC_CCP_04" classname="com.ComCate.TestCases.CCP" time="3.091"/>
+  <testcase name="TC_CCP_06" classname="com.ComCate.TestCases.CCP" time="3.511"/>
+  <testcase name="TC_CCP_07" classname="com.ComCate.TestCases.CCP" time="2.148"/>
+  <testcase name="TC_CCP_08" classname="com.ComCate.TestCases.CCP" time="0.319"/>
+  <testcase name="TC_CCP_09" classname="com.ComCate.TestCases.CCP" time="1.573"/>
+  <testcase name="TC_CCP_10" classname="com.ComCate.TestCases.CCP" time="1.706"/>
+  <testcase name="TC_CCP_11" classname="com.ComCate.TestCases.CCP" time="2.208"/>
+  <testcase name="TC_CCP_12" classname="com.ComCate.TestCases.CCP" time="1.306"/>
+  <testcase name="TC_CCP_13" classname="com.ComCate.TestCases.CCP" time="2.335"/>
+  <testcase name="TC_CCP_14" classname="com.ComCate.TestCases.CCP" time="1.153"/>
+  <testcase name="TC_CCP_15" classname="com.ComCate.TestCases.CCP" time="2.294"/>
+  <testcase name="TC_CCP_16" classname="com.ComCate.TestCases.CCP" time="0.131"/>
+  <testcase name="TC_CCP_17" classname="com.ComCate.TestCases.CCP" time="1.049"/>
+  <testcase name="TC_CCP_18" classname="com.ComCate.TestCases.CCP" time="0.153"/>
+  <testcase name="TC_CCP_19" classname="com.ComCate.TestCases.CCP" time="0.131"/>
+  <testcase name="TC_CCP_20" classname="com.ComCate.TestCases.CCP" time="0.096"/>
+  <testcase name="TC_CCP_21" classname="com.ComCate.TestCases.CCP" time="0.229"/>
+  <testcase name="TC_CCP_22" classname="com.ComCate.TestCases.CCP" time="0.279"/>
+  <testcase name="TC_CCP_23" classname="com.ComCate.TestCases.CCP" time="0.175"/>
+  <testcase name="TC_CCP_24" classname="com.ComCate.TestCases.CCP" time="0.089"/>
+  <testcase name="TC_CCP_25" classname="com.ComCate.TestCases.CCP" time="0.202"/>
+  <testcase name="TC_CCP_26" classname="com.ComCate.TestCases.CCP" time="1.472"/>
+  <testcase name="TC_CCP_27" classname="com.ComCate.TestCases.CCP" time="0.033"/>
+  <testcase name="TC_CCP_28" classname="com.ComCate.TestCases.CCP" time="0.145"/>
+  <testcase name="TC_CCP_29" classname="com.ComCate.TestCases.CCP" time="5.166"/>
+  <testcase name="TC_CCP_30" classname="com.ComCate.TestCases.CCP" time="3.431"/>
+  <testcase name="TC_CCP_34" classname="com.ComCate.TestCases.CCP" time="2.079"/>
+  <testcase name="TC_CCP_35" classname="com.ComCate.TestCases.CCP" time="3.166"/>
+  <testcase name="TC_CCP_36" classname="com.ComCate.TestCases.CCP" time="2.121"/>
+  <testcase name="TC_CCP_37" classname="com.ComCate.TestCases.CCP" time="2.786"/>
+  <testcase name="TC_CCP_38" classname="com.ComCate.TestCases.CCP" time="0.09"/>
+  <testcase name="TC_CCP_39" classname="com.ComCate.TestCases.CCP" time="2.13"/>
+  <testcase name="TC_CCP_40" classname="com.ComCate.TestCases.CCP" time="9.73"/>
+  <testcase name="TC_CCP_42" classname="com.ComCate.TestCases.CCP" time="1.494"/>
+  <testcase name="TC_CCP_43" classname="com.ComCate.TestCases.CCP" time="0.213"/>
+  <testcase name="TC_CCP_44" classname="com.ComCate.TestCases.CCP" time="0.042"/>
+  <testcase name="TC_CCP_46" classname="com.ComCate.TestCases.CCP" time="0.151"/>
+  <testcase name="TC_CCP_47" classname="com.ComCate.TestCases.CCP" time="3.165"/>
+  <testcase name="TC_CCP_48" classname="com.ComCate.TestCases.CCP" time="2.152"/>
+  <testcase name="TC_CCP_49" classname="com.ComCate.TestCases.CCP" time="5.131"/>
+  <testcase name="TC_CCP_50" classname="com.ComCate.TestCases.CCP" time="3.807"/>
+  <testcase name="TC_CCP_51" classname="com.ComCate.TestCases.CCP" time="0.669"/>
+  <testcase name="TC_CCP_52" classname="com.ComCate.TestCases.CCP" time="6.739"/>
+  <testcase name="TC_CCP_53" classname="com.ComCate.TestCases.CCP" time="1.744"/>
+  <testcase name="TC_CCP_54" classname="com.ComCate.TestCases.CCP" time="0.387"/>
+  <testcase name="TC_CCP_55" classname="com.ComCate.TestCases.CCP" time="3.527"/>
+  <testcase name="TC_CCP_56" classname="com.ComCate.TestCases.CCP" time="2.06"/>
+</testsuite>

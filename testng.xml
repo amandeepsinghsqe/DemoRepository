@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+                    <class name="com.ComCate.TestCases.Login">
+                              
+                <methods>
+                    				  <include name="LoginAgency"/>
+                </methods>
+          </class>
+          
+          <class name="com.ComCate.TestCases.CCP">
+             <methods>
+                                       <include name="PreRequisite"/>
+                				       <include name="TC_CCP_01"/>
+                   					   <include name="TC_CCP_02"/>
+                                       <include name="TC_CCP_03"/>
+                                       <include name="TC_CCP_04"/>
+                                       <include name="TC_CCP_05"/>
+                                       <include name="TC_CCP_06"/>
+                                       <include name="TC_CCP_07"/>
+                                       <include name="TC_CCP_08"/>
+                                       <include name="TC_CCP_09"/>
+                                       <include name="TC_CCP_10"/>
+                                       <include name="TC_CCP_11"/>
+                                       <include name="TC_CCP_12"/>
+                                       <include name="TC_CCP_13"/>
+                                       <include name="TC_CCP_14"/>
+                                       <include name="TC_CCP_15"/>
+                                       <include name="TC_CCP_16"/>    
+                                       
+                                       <include name="TC_CCP_17"/>
+                                       <include name="TC_CCP_18"/>
+                                       <include name="TC_CCP_19"/>
+                                       <include name="TC_CCP_20"/>
+                                       <include name="TC_CCP_21"/>
+                                       <include name="TC_CCP_22"/>
+                                       <include name="TC_CCP_23"/>
+                                       <include name="TC_CCP_24"/>
+                                       <include name="TC_CCP_25"/>
+                                       <include name="TC_CCP_26"/>
+                                       <include name="TC_CCP_27"/>
+                                       <include name="TC_CCP_28"/>
+                                       <include name="TC_CCP_29"/>
+                                       <include name="TC_CCP_30"/>
+                                       <include name="TC_CCP_31"/>
+                                       <include name="TC_CCP_32"/>   
+                                       <include name="TC_CCP_34"/>
+                                       <include name="TC_CCP_35"/>
+                                       <include name="TC_CCP_36"/> 
+                                       
+                                       <include name="TC_CCP_37"/>
+                                       <include name="TC_CCP_38"/>
+                                       <include name="TC_CCP_39"/>
+                                       <include name="TC_CCP_40"/>
+                                       <include name="TC_CCP_42"/>
+                                       <include name="TC_CCP_43"/>
+                                       <include name="TC_CCP_44"/>
+                                       <include name="TC_CCP_45"/>
+                                       
+                                       
+                                       <include name="TC_CCP_46"/>
+                                       <include name="TC_CCP_47"/>
+                                       <include name="TC_CCP_48"/>
+                                       <include name="TC_CCP_49"/>
+                                       <include name="TC_CCP_50"/>
+                                       <include name="TC_CCP_51"/>
+                                       <include name="TC_CCP_52"/>
+                                       <include name="TC_CCP_53"/>
+                                       <include name="TC_CCP_54"/>
+                                       <include name="TC_CCP_55"/>
+                                       <include name="TC_CCP_56"/> 
+                                    
+                   
+             </methods>
+            </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
